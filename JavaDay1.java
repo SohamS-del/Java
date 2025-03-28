@@ -3,24 +3,11 @@ import java.lang.*;
 
 public class JavaDay1
 {
-    public static void main(String args[])
+    public static void main(String a[])
     {
-        int temp = (int)(Math.random() * 1000);
-       for(int i=0;i<4;i++)
-       {
-            for(int p=0;p<i+1;p++)
-            {
-                System.out.print(temp  +  " ");
-                temp++;
-            }
-        System.out.println(" ");
-       }
+       ArrayList<Integer> num = new ArrayList<Integer>();
+       num.add(10);
+       System.out.println(num.get(0));
         
     }
 }
-/*
-A
-B B
-C C C
-D D D D
-*/
